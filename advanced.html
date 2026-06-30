@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Advanced Search</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <form action="https://www.google.com/search">
+        <div>
+            <label>all these words:</label>
+            <input type="text" name="as_q">
+        </div>
+    
+        <div>
+            <label>this exact word or phrase:</label>
+            <input type="text" name="as_epq">
+        </div>
+    
+        <div>
+            <label>any of these words:</label>
+            <input type="text" name="as_oq">
+        </div>
+    
+        <div>
+            <label>none of these words:</label>
+            <input type="text" name="as_eq">
+        </div>
+    
+        <input type="submit" value="Advanced Search">
+    </form>
 </body>
 </html>
