@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.row label{
+    width:220px;
+}
+
+.row input[type="text"]{
+    width: 400px
+}
+
+.search-button {
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.advanced-form {
+    margin: 40px;
+}
